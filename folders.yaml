@@ -1,0 +1,17 @@
+removeStrategy:
+ items: "none"
+ rbac: "sync"
+
+items:
+ - kind: "folder"
+   name: "controller-jobs"
+   description: "Base controller folder for all jobs."
+   groups:
+     - name: "Job Managers"
+       members:
+         users:
+           - "Managers"
+       roles:
+         - name: "job-manager"
+           grantedAt: "current"
+           propagates: "true"
