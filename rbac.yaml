@@ -26,14 +26,14 @@ groups:
     users:
     - admin
     - team-admin
-    - "REPLACE_GITHUB_USERNAME-admin"
+    - "ramonamis-admin"
   roles:
   - name: administrator
     grantedAt: current
 - name: Managers
   members:
     users:
-    - "REPLACE_GITHUB_USERNAME"
+    - "ramonamis"
   roles:
   - name: manager
     grantedAt: current
