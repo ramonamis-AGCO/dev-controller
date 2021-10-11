@@ -1,7 +1,9 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "ramonamis-AGCO-dev-controller"
 description: "CloudBees CI configuration bundle for the cbci-casc-workshop dev-controller Controller"
 parent: "base"
 rbac:
   - "rbac.yaml"
+items:
+  - "folders.yaml"
